@@ -1,0 +1,226 @@
+.header {
+    width: 100%;
+    background: #082c4e;
+    /* height: 53px; */
+    padding: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+.main-header {
+    color: white;
+    width: 40%;
+}
+
+ul li {
+    display: inline-block;
+    color: white;
+    font-size: 26px;
+    margin-left: 33px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* this part of heading section end here */
+
+/* new section is started from here */
+.overview {
+    width: 100%;
+    background: #082c4e;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+    height: 507px;
+}
+
+.mr-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 16px; */
+    padding-top: 100px;
+}
+
+.details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.img-wrap {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.gt-started {
+    padding: 15px 38px;
+    border-radius: 29px;
+    background: #082c4e;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.details p {
+    font-size: 52px;
+}
+
+.details h5 {
+    font-size: 18px;
+}
+
+.btn {
+    /* margin-bottom: 10px; */
+    padding-top: 60px;
+}
+
+/* end 2.0 */
+
+/* 
+new part of section is started from here */
+
+.card {
+    width: 100%;
+    /* display: ; */
+}
+
+.title {
+    /* display: ; */
+    width: 100%;
+    text-align: center;
+    color: #082c4e;
+    font-size: 43px;
+    margin-top: 80px;
+    /* align-self: center; */
+    margin-bottom: 96px;
+}
+
+.card-under {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    background: #fe6571;
+    height: 391px;
+}
+
+.card-under i {
+    font-size: 69px;
+    /* background: #fe6571; */
+    border: 6px solid;
+    padding: 13px 27px;
+    border-radius: 53px;
+    margin-bottom: 43px;
+    margin-top: 40px;
+}
+
+.wrapping {
+    margin-left: 28px;
+    color: #132e4f;
+}
+
+.wrapping a {
+    text-decoration: none;
+    font-weight: bolder;
+    /* margin-bottom: 11px; */
+}
+
+.refference-wrap {
+    margin-top: 18px;
+}
+
+.wrapping p {
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* just practice */
+.design {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    background: #ffcc00;
+    height: 391px;
+}
+
+.reasearch {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    background: #22a5e5;
+    height: 391px;
+}
+
+.branding {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    background: #f2eae2;
+    height: 391px;
+}
+
+.marketting {
+    width: 207px;
+    display: flex;
+    flex-direction: column;
+    background: #fe6571;
+    height: 391px;
+}
+
+
+/* icon sizing is from here 2.0 */
+
+.design i {
+    font-size: 69px;
+    /* background: #fe6571; */
+    border: 6px solid;
+    padding: 13px 27px;
+    border-radius: 53px;
+    margin-bottom: 43px;
+    margin-top: 40px;
+}
+
+.reasearch i {
+    font-size: 69px;
+    /* background: #fe6571; */
+    border: 6px solid;
+    padding: 13px 27px;
+    border-radius: 53px;
+    margin-bottom: 43px;
+    margin-top: 40px;
+}
+
+.branding i {
+    font-size: 69px;
+    /* background: #fe6571; */
+    border: 6px solid;
+    padding: 13px 27px;
+    border-radius: 53px;
+    margin-bottom: 43px;
+    margin-top: 40px;
+}
+
+.marketting i {
+    font-size: 69px;
+    /* background: #fe6571; */
+    border: 6px solid;
+    padding: 13px 27px;
+    border-radius: 53px;
+    margin-bottom: 43px;
+    margin-top: 40px;
+}
